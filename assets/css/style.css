@@ -1,22 +1,26 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    ;
     background-color: #111;
     margin: 0;
     color: #fff;
 }
-header, footer{
+
+header,
+footer {
     width: 100%;
     background-color: #000;
 }
-img{
+
+img {
     max-width: 100%;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.sectionTittle{
+.sectionTittle {
     text-transform: uppercase;
     font-size: 22px;
     text-align: center;
@@ -27,39 +31,58 @@ a{
 
 .headerContainer,
 .footerContainer,
-.projects-container{
+.projects-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 1rem;
 }
 
-.headerContainer{
+.headerContainer {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.logo{
+.logo {
     text-transform: uppercase;
     margin: 1rem;
     font-size: 26px;
     color: #fff;
 }
 
-footer{
+footer {
     position: relative;
     bottom: 0;
 }
 
 @media only screen and (min-width: 768px) {
-    .footerContainer{
+    .footerContainer {
         margin-top: auto;
         display: flex;
         justify-content: space-around;
     }
 }
-.projects-container{
+
+.projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 1rem;
+}
+
+.projects-container a {
+    overflow: hidden;
+    border-radius: 0.5rem;
+    border: 1px solid #fff;
+    transition: 0.8s;
+}
+
+.projects-container a:hover {
+    border-color: #5dbcf3;
+}
+
+.projects-container a img {
+    transition: 0.5s;
+}
+.projects-container a img:hover {
+    scale: 1.1;
 }
