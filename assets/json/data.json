@@ -1,0 +1,37 @@
+{
+    "navHeader": {
+        "logo": "Nombre"
+    },
+    "dataFooter": [
+        {
+            "dataName": "Phone",
+            "dataText": "12345678"
+        },
+        {
+            "dataName": "Email",
+            "dataText": "asd@gmail.com"
+        },
+        {
+            "dataName": "Privacy Policy",
+            "dataText": "Created by Nombre © 2024"
+        }
+    ],
+    "proyects": [
+        {
+            "siteUrl": "https://www.moneybet.ag/",
+            "imgUrl": "./assets/images/moneybet.jpg"
+        },
+        {
+            "siteUrl": "https://www.moneybet.ag/",
+            "imgUrl": "./assets/images/moneybet.jpg"
+        },
+        {
+            "siteUrl": "https://www.moneybet.ag/",
+            "imgUrl": "./assets/images/moneybet.jpg"
+        },
+        {
+            "siteUrl": "https://www.moneybet.ag/",
+            "imgUrl": "./assets/images/moneybet.jpg"
+        }
+    ]
+}
